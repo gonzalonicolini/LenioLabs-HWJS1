@@ -23,7 +23,7 @@ const avengers = [
         id: 6,
         name: 'Carol Denvers'
     }
-]
+];
 
 const xmen = [
     {
@@ -46,4 +46,12 @@ const xmen = [
         id: 5,
         name: 'Iceman'
     }
-]
+];
+
+let bothTeams = avengers.filter(avenger => {
+    return xmen.some(xmens=> xmens.name === avenger.name)
+} );
+
+console.log ('the characters who sharing teams are ', bothTeams);
+
+//tampoco me lo dejo correr la terminal local

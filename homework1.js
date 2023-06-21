@@ -49,4 +49,11 @@ const characters = [
         name: 'Nightcrawler',
         teams: ['x-men']
     }
-]
+];
+
+let xMen = characters.filter(member => member.teams == 'x-men');
+
+console.log ('the x-mens caracters in this array are',xMen);
+
+//Me trae solo a Nightcrawler, estimo que es por la propiedad member.teams == 'x-men'y no trae a los demas caracteres que comparten teams
+//Tengo un problema que no me deja correr el script desde la terminal local de mi maquina (tengo node), tuve que correrlo desde una terminal web
