@@ -54,4 +54,4 @@ let bothTeams = avengers.filter(avenger => {
 
 console.log ('the characters who sharing teams are ', bothTeams);
 
-//tampoco me lo dejo correr la terminal local
+//tampoco me lo dejo correr la terminal local'

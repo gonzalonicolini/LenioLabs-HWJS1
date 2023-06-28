@@ -51,7 +51,7 @@ const characters = [
     }
 ];
 
-let xMen = characters.filter(member => member.teams == 'x-men');
+let xMen = characters.filter(member => member.teams.includes ('x-men'));
 
 console.log ('the x-mens caracters in this array are',xMen);
 
